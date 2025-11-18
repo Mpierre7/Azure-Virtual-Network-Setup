@@ -20,8 +20,10 @@ A GatewaySubnet to support VPN gateway design (without deploying the paid resour
 
 
  Architecture Diagram
+
+ 
                            ┌───────────────────────────────┐
-                           │       Azure Subscription       │
+                           │       Azure Subscription      │
                            └───────────────────────────────┘
                                       │
                                       ▼

@@ -99,12 +99,7 @@ snet-management	nsg-management
 Step 7 — Deploy Virtual Machines
 
 Created test VMs to validate that the subnets and NSGs function correctly:
-
-![VM List](screenshots/07-vm-list.png)
-
 vm-app-01 → snet-app
-
 Screenshot
-
 ![VM List](screenshots/07-vm-list.png)
 

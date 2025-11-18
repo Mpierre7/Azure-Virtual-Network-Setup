@@ -106,4 +106,5 @@ vm-app-01 → snet-app
 
 Screenshot
 
-Filename: 07-vm-list.png
+![VM List](screenshots/07-vm-list.png)
+

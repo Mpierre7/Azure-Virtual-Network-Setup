@@ -51,6 +51,7 @@ A GatewaySubnet to support VPN gateway design (without deploying the paid resour
 
 
 Implementation Steps
+
 Step 1 — Resource Group
 
 Created a dedicated resource group:
@@ -72,6 +73,7 @@ snet-app	10.0.2.0/24	Internal app services
 snet-db	10.0.3.0/24	Database servers
 snet-management	10.0.4.0/24	Admin / management nodes
 GatewaySubnet	10.0.255.0/27	Reserved for VPN gateway
+
 Step 4 — Network Security Groups
 
 Created NSGs:

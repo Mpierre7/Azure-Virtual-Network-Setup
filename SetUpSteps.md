@@ -8,7 +8,7 @@ URL: https://portal.azure.com
 
  Screenshot
 
-Filename: 01-azure-portal-home.png
+![Azure Portal Home](screenshots/01-azure-portal-home.png)
 
 
  Step 2 — Create Resource Group
@@ -21,8 +21,7 @@ Region: (Your preferred region)
 
 Screenshot
 
-Filename: 02-rg-enterprise-network-lab.png
-
+![Resource Group](screenshots/02-rg-enterprise-network-lab.png)
 
 Step 3 — Create the Virtual Network + Subnets
 
@@ -42,7 +41,8 @@ snet-management	10.0.4.0/24
 GatewaySubnet	10.0.255.0/27
  Screenshot
 
-Filename: 03-vnet-subnets.png
+![VNet Subnets](screenshots/03-vnet-subnets.png)
+
 
 
 Step 4 — Create Network Security Groups
@@ -59,7 +59,8 @@ nsg-management
 
  Screenshot
 
-Filename: 04-nsg-list.png
+![NSG List](screenshots/04-nsg-list.png)
+
 
 
 Step 5 — Configure NSG Inbound Rules
@@ -76,7 +77,8 @@ Default deny all other inbound traffic
 
  Screenshot
 
-Filename: 05-nsg-rules-example.png
+![NSG Rules Example](screenshots/05-nsg-rules-example.png)
+
 
 
 Step 6 — Associate NSGs to Subnets
@@ -90,17 +92,18 @@ snet-db	nsg-db
 snet-management	nsg-management
  Screenshot
 
-Filename: 06-subnets-with-nsgs.png
+![Subnet NSG Association](screenshots/06-subnets-with-nsgs.png)
+
 
 
 Step 7 — Deploy Virtual Machines
 
 Created test VMs to validate that the subnets and NSGs function correctly:
 
-vm-frontend-01 → snet-frontend
+![VM List](screenshots/07-vm-list.png)
 
 vm-app-01 → snet-app
 
-📸 Screenshot
+Screenshot
 
 Filename: 07-vm-list.png
